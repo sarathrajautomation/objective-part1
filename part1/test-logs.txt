@@ -2,3 +2,34 @@ Starting test Excercise 1- Open up the amazon website
 Navigating to amazon.com
 Product Information SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know  TitanTitan Smart 3 Premium Smart Watch|1.96" Super AMOLED Display with 410x502 Pixel Resolution|SingleSync BT Calling|NitroFast Charging|110+ Sports Modes|200+ Watchfaces|Upto 7 Days Battery (Black)  3.8 out of 5 stars 1,195  300+ bought in past month₹4,995₹4,995 M.R.P: ₹11,995₹11,995 (58% off) Get it by Tomorrow, 26 AugustFREE Delivery by AmazonService: Installation
 New page title: Amazon.in : Titan Watch
+Starting test Excercise 1- Open up the amazon website
+Navigating to amazon.com
+Product Information SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know  TitanTitan Smart 3 Premium Smart Watch|1.96" Super AMOLED Display with 410x502 Pixel Resolution|SingleSync BT Calling|NitroFast Charging|110+ Sports Modes|200+ Watchfaces|Upto 7 Days Battery (Black)  3.8 out of 5 stars 1,195  300+ bought in past month₹4,995₹4,995 M.R.P: ₹11,995₹11,995 (58% off) Get it by Tomorrow, 26 AugustFREE Delivery by AmazonService: Installation
+New page title: Amazon.in : Titan Watch
+Error: page.waitForEvent: Test ended.
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+Starting test Excercise 1- Open up the amazon website
+Navigating to amazon.com
+Product Information SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know  TitanTitan Smart 3 Premium Smart Watch|1.96" Super AMOLED Display with 410x502 Pixel Resolution|SingleSync BT Calling|NitroFast Charging|110+ Sports Modes|200+ Watchfaces|Upto 7 Days Battery (Black)  3.8 out of 5 stars 1,195  300+ bought in past month₹4,995₹4,995 M.R.P: ₹11,995₹11,995 (58% off) Get it by Tomorrow, 26 AugustFREE Delivery by AmazonService: Installation
+New page title: Amazon.in : Titan Watch
+Starting test Excercise 1- Open up the amazon website
+Navigating to amazon.com
+Product Information SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know  TitanTitan Celestor Smartwatch with 1.43” AMOLED Display & AOD|60Hz Fluid Display|Advanced GPS with Altimeter, Barometer & Compass|Piezoelectric Crown|BT Calling|NitroFast Charge|Upto 7 Day Battery|3ATM  3.8 out of 5 stars 1,195  50+ bought in past month₹9,995₹9,995 Get it by Tomorrow, 26 AugustFREE Delivery by AmazonService: Installation
+New page title: Amazon.in : Titan Watch
+Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('link', { name: 'Sponsored Ad - Titan Smart 3' })[22m
+
+Starting test Excercise 1- Open up the amazon website
+Navigating to amazon.com
+Product Information SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know  TitanTitan Smart 3 Premium Smart Watch|1.96" Super AMOLED Display with 410x502 Pixel Resolution|SingleSync BT Calling|NitroFast Charging|110+ Sports Modes|200+ Watchfaces|Upto 7 Days Battery (Black)  3.8 out of 5 stars 1,195  300+ bought in past month₹4,995₹4,995 M.R.P: ₹11,995₹11,995 (58% off) Get it by Tomorrow, 26 AugustFREE Delivery by AmazonService: Installation
+New page title: Amazon.in : Titan Watch
+Starting test Excercise 1- Open up the amazon website
+Navigating to amazon.com
+Test failed: Excercise 1- Open up the amazon website
+Starting test Excercise 1- Open up the amazon website
+Navigating to amazon.com
+Product Information SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know  TitanTitan Smart 3 Premium Smart Watch|1.96" Super AMOLED Display with 410x502 Pixel Resolution|SingleSync BT Calling|NitroFast Charging|110+ Sports Modes|200+ Watchfaces|Upto 7 Days Battery (Black)  3.8 out of 5 stars 1,195  300+ bought in past month₹4,995₹4,995 M.R.P: ₹11,995₹11,995 (58% off) Get it by Tomorrow, 26 AugustFREE Delivery by AmazonService: Installation
+New page title: Amazon.in : Titan Watch

@@ -31,7 +31,6 @@ test.afterEach(async ({ page }, testInfo) => {
   }
 });
 
-
 //Test started here
 test("Excercise 1- Open up the amazon website", async ({ page }) => {
   //Navigate to given url
@@ -39,37 +38,39 @@ test("Excercise 1- Open up the amazon website", async ({ page }) => {
 
   try {
     await page.goto(data.appurl);
+    await page.screenshot({ path: `screenshots/search-result.png` });
     await page.getByPlaceholder("Search Amazon.in").fill(data.searchTerm);
     await page.getByPlaceholder("Search Amazon.in").press("Enter");
+    await page.screenshot({ path: `screenshots/search-result1.png` });
 
-//Log the first product
-   const name= await page.locator('.puis-card-container > div > div:nth-child(2)').first().textContent();
-   logToFile('Product Information '+name);
-   
-   
+    //Log the first product
+    const name = await page
+      .locator(".puis-card-container > div > div:nth-child(2)")
+      .first()
+      .textContent();
+    logToFile("Product Information " + name);
 
     const newPageTitle = await page.title();
     logToFile(`New page title: ${newPageTitle}`);
   } catch (error) {
-
+    await page.screenshot({ path: `screenshots/search-result/failed.png` });
     logToFile(error);
   }
-//Opening the new tab for product page
+  //Opening the new tab for product page
   try {
     const page1Promise = page.waitForEvent("popup");
     await page
       .getByRole("link", { name: "Sponsored Ad - Titan Smart 3" })
       .click();
 
-     
-      
     const page1 = await page1Promise;
     //Cliking the add to shopping cart page
 
-
     await page1.getByTitle("Add to Shopping Cart").click();
     await page1.getByLabel("Proceed to Buy (1 item) Buy").click();
+    await page1.screenshot({ path: `screenshots/search-result2.png` });
   } catch (error) {
     logToFile(error);
+    await page.screenshot({ path: `screenshots/search-result-failed.png` });
   }
 });
