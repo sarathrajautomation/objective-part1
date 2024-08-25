@@ -17,7 +17,15 @@ Report Generation:
 npx playwright show-report
 
 
+"Data Configuration:
 
-Commonly setting data.json file that file include the link of website, search term
-Import and use it in the reference pages
+    Create a data.json file containing:
+        Website URLs
+        Search terms
+    Import this file into your project for reference.
+
+Testing and Logging:
+
+    Each test step will be logged to test-logs.txt.
+    Screenshots will be captured for both successful and failed test cases and saved in the screenshots folder."
 
